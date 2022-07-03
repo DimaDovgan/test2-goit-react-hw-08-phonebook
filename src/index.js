@@ -18,7 +18,7 @@ root.render(
   <React.StrictMode>
     
     <Provider store={store}>
-      <BrowserRouter basename="/test-goit-react-hw-08-phonebook">
+      <BrowserRouter basename="/test-goit-react-hw-08-phonebook" forceRefresh={true}>
         <App />
         </BrowserRouter>
       </Provider>
