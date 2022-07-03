@@ -25,8 +25,8 @@ function App() {
   
   return (<>
     <Navigate />
-     <Routes>
-      <Route exact path='/test2-goit-react-hw-08-phonebook' element={<HomePage />}/>
+    <Routes>
+      <Route exact path='test2-goit-react-hw-08-phonebook' element={<HomePage />}/>
         <Route path='contacts' element={<PrivateContacts ><PhoneBook /></PrivateContacts>} />
         <Route exact path='login' restricted element={ <PublicRoute ><LoginForm/></PublicRoute>}/>
         <Route exact path='register' restricted element={ <PublicRoute ><RegistarationForm/></PublicRoute>}/>
