@@ -16,9 +16,9 @@ import {
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    {/* basename="/test2-goit-react-hw-08-phonebook" */}
+   
     <Provider store={store}>
-      <BrowserRouter >
+      <BrowserRouter  basename="/test2-goit-react-hw-08-phonebook" >
         <App />
         </BrowserRouter>
       </Provider>
